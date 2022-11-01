@@ -10,7 +10,7 @@ import time
 
 #import the data
 data = pd.read_csv("DataClean.csv")
-image = Image.open("house.png")
+image = Image.open("photo_2022-11-01_14-42-59.jpg")
 st.title("Selamat Datang di Aplikasi cekhargarumah.com")
 st.image(image, use_column_width=True)
 
